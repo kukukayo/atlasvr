@@ -1,0 +1,837 @@
+{
+  "source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+  "archive": "partof_BP3D_4.0_obj_99.zip",
+  "archive_sha256": "9fbc713fffeee924a5a657d9813d84d7eb957bded63adb854931dd5e3eb61c97",
+  "license": "CC-BY-4.0",
+  "license_source": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+  "parts": [
+    {
+      "id": "BP9960",
+      "fma": "FMA9710",
+      "original_name": "vomer",
+      "name_pt": "Vômer",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3395"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3395.obj",
+          "sha256": "fcbfac8ca1992059a3026b445fbf55c5b5fa5a54786ed468a6ee8259230101d4"
+        }
+      ],
+      "triangles": 7000,
+      "original_triangles": 7218
+    },
+    {
+      "id": "BP7094",
+      "fma": "FMA12514",
+      "original_name": "right eyeball",
+      "name_pt": "Globo ocular direito",
+      "group": "olhos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ1336",
+        "FJ1337",
+        "FJ1340",
+        "FJ1348",
+        "FJ1356",
+        "FJ1368",
+        "FJ1371",
+        "FJ1382"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ1336.obj",
+          "sha256": "518f78b01de0273ea1cdd6152f2215f9432f2ce00ac2164cea8aa3a420cd897c"
+        },
+        {
+          "path": "originals/selected/FJ1337.obj",
+          "sha256": "db3077437828f311b6afa07dc9dc7a27ab0e005ddce62570420c61af31643f22"
+        },
+        {
+          "path": "originals/selected/FJ1340.obj",
+          "sha256": "20cc1b1156cd9fdebd96d8a7710ff3d6d6fc9fef79b7173ef41491e2b6e650a3"
+        },
+        {
+          "path": "originals/selected/FJ1348.obj",
+          "sha256": "1120c896903582ef7349b5be68a03bfb215def235851a82b1f1f44cfe212ad9e"
+        },
+        {
+          "path": "originals/selected/FJ1356.obj",
+          "sha256": "767e9107cf299b87729c9eb921a2ede22d3bfd03ae7027b6fb88631c1a0ec150"
+        },
+        {
+          "path": "originals/selected/FJ1368.obj",
+          "sha256": "6fce2e1842730573a8d1360a88a9512b2ee5fe0ebe55e669cd265601da663b49"
+        },
+        {
+          "path": "originals/selected/FJ1371.obj",
+          "sha256": "8dc5ab248fc952170f9057aaf4bbd2339d9ee4c30b40b32ce793e54b22706738"
+        },
+        {
+          "path": "originals/selected/FJ1382.obj",
+          "sha256": "de22335a9c3ad8036e0651eb09aa975e15151bb5ac6e3d142cf8260204fa633f"
+        }
+      ],
+      "triangles": 11979,
+      "original_triangles": 97374
+    },
+    {
+      "id": "BP7110",
+      "fma": "FMA12515",
+      "original_name": "left eyeball",
+      "name_pt": "Globo ocular esquerdo",
+      "group": "olhos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ1282",
+        "FJ1285",
+        "FJ1286",
+        "FJ1289",
+        "FJ1297",
+        "FJ1305",
+        "FJ1317",
+        "FJ1320",
+        "FJ1331"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ1282.obj",
+          "sha256": "c66ed172ed90448e3e9508f21b116f319cfd1036cb7281e2f3541ede5f2adb1f"
+        },
+        {
+          "path": "originals/selected/FJ1285.obj",
+          "sha256": "dd7677f804c1c370a2c6d11966877934efa9ca09c6b100e18f06fd4508ccbbb6"
+        },
+        {
+          "path": "originals/selected/FJ1286.obj",
+          "sha256": "ba4e6f7156124700b63d526a882933b35b89fa0e9fd53495964d57aa5de1c989"
+        },
+        {
+          "path": "originals/selected/FJ1289.obj",
+          "sha256": "6edadfa812d834f5b90d17d427baa0c6688a4cc32856c2b8c6320907bbc05150"
+        },
+        {
+          "path": "originals/selected/FJ1297.obj",
+          "sha256": "e9359237794eef61117f1c12a6822dafdd0cfc70ada8d2447e3d26d4fcda9bd7"
+        },
+        {
+          "path": "originals/selected/FJ1305.obj",
+          "sha256": "a2b7f9b53dd2d14a352dfa0d3e01452031a2957aae62aa7c904d7c1d1922954c"
+        },
+        {
+          "path": "originals/selected/FJ1317.obj",
+          "sha256": "81a184bd0d3d8602af3c2186405a16565bcabd0d305fcbad7e02b979335d9582"
+        },
+        {
+          "path": "originals/selected/FJ1320.obj",
+          "sha256": "a73a8e48e83cd65e15eda97533b59cac7f3f687a7b117e587bc561bf4f7b50a1"
+        },
+        {
+          "path": "originals/selected/FJ1331.obj",
+          "sha256": "417bc91c6719b2982cb60640058ddcce9f50ecfb5a20db02393f2cf7bad82a0b"
+        }
+      ],
+      "triangles": 11998,
+      "original_triangles": 100388
+    },
+    {
+      "id": "BP6687",
+      "fma": "FMA50801",
+      "original_name": "brain",
+      "name_pt": "Encéfalo",
+      "group": "encefalo",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ1730",
+        "FJ1731",
+        "FJ1732",
+        "FJ1733",
+        "FJ1738",
+        "FJ1739",
+        "FJ1740",
+        "FJ1743",
+        "FJ1744",
+        "FJ1745",
+        "FJ1746",
+        "FJ1747",
+        "FJ1748",
+        "FJ1749",
+        "FJ1750",
+        "FJ1751",
+        "FJ1758",
+        "FJ1759",
+        "FJ1760",
+        "FJ1762",
+        "FJ1767",
+        "FJ1769",
+        "FJ1770",
+        "FJ1775",
+        "FJ1779",
+        "FJ1780",
+        "FJ1781",
+        "FJ1783",
+        "FJ1784",
+        "FJ1785",
+        "FJ1786",
+        "FJ1787",
+        "FJ1788",
+        "FJ1789",
+        "FJ1790",
+        "FJ1791",
+        "FJ1792",
+        "FJ1795",
+        "FJ1797",
+        "FJ1798",
+        "FJ1800",
+        "FJ1801",
+        "FJ1806",
+        "FJ1807",
+        "FJ1808",
+        "FJ1810",
+        "FJ1814",
+        "FJ1817",
+        "FJ1822",
+        "FJ1826",
+        "FJ1828",
+        "FJ1830",
+        "FJ1831",
+        "FJ1833",
+        "FJ1834",
+        "FJ1835",
+        "FJ1836",
+        "FJ1841",
+        "FJ1842"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ1730.obj",
+          "sha256": "7acd4a30d13b409221aea7267ae302ef7c100162a6185d891c91843ec876dd79"
+        },
+        {
+          "path": "originals/selected/FJ1731.obj",
+          "sha256": "b56e1cd574977821f5331174a31a830ec6a477e2c6c3f32667f7e46a6716eae8"
+        },
+        {
+          "path": "originals/selected/FJ1732.obj",
+          "sha256": "661e99ae245f0392bd7bfd63aa65074f61fb47e9c35641310f1804c9973acb9a"
+        },
+        {
+          "path": "originals/selected/FJ1733.obj",
+          "sha256": "4f154c33e0c43d68d75aaec659b9a6f65ca42ef4b8ea6462a4482e2178b92a0f"
+        },
+        {
+          "path": "originals/selected/FJ1738.obj",
+          "sha256": "089159be9815563e0645e5a28e7302fbc0bc842af760ac886bf3d0542f34a8f3"
+        },
+        {
+          "path": "originals/selected/FJ1739.obj",
+          "sha256": "26feea54a830b6cf523926e9a50f64935591d30206511f2804cfe79bed423d11"
+        },
+        {
+          "path": "originals/selected/FJ1740.obj",
+          "sha256": "deb04b668a1aa817aa01472ab0191add32393a1bdba518b19d5c8f29431d136f"
+        },
+        {
+          "path": "originals/selected/FJ1743.obj",
+          "sha256": "e2c529932bb78ebae41cbc82496dcfe512f15455b6d806783e019444d10b2eae"
+        },
+        {
+          "path": "originals/selected/FJ1744.obj",
+          "sha256": "055774da0ba432560fb8e65b2b474ddaf5ac1a683f5b4fbcc1e8cac6e9536c25"
+        },
+        {
+          "path": "originals/selected/FJ1745.obj",
+          "sha256": "6210acb1780932a25c00b2f4cbdf5ab28cd9ed95eef46ef792ab3647a42c1b47"
+        },
+        {
+          "path": "originals/selected/FJ1746.obj",
+          "sha256": "4be36eec071bfe6d1878acfa535e74dbf91c773c351dea9bc9a4704e3db3fe2e"
+        },
+        {
+          "path": "originals/selected/FJ1747.obj",
+          "sha256": "0e04dea5d156768ae580670b771197c882d9b652132358ef6197ae3f823640f6"
+        },
+        {
+          "path": "originals/selected/FJ1748.obj",
+          "sha256": "deca1e77a904006224aa6cc34e3710c8d963d1fc89e474ac42258e1f2f3315fd"
+        },
+        {
+          "path": "originals/selected/FJ1749.obj",
+          "sha256": "564190a0427db7acf0b27dc124673d028ff99c3dbd0aaa54ec0c236ee3baf754"
+        },
+        {
+          "path": "originals/selected/FJ1750.obj",
+          "sha256": "ac3d98925d313c0db553ec22a26c20520657f3d9f78c07b0b3cc6d72c5837e93"
+        },
+        {
+          "path": "originals/selected/FJ1751.obj",
+          "sha256": "8f66e76ffc8bccc07a7fb14e49441bc061e23ba1251571439b8197f82acd50df"
+        },
+        {
+          "path": "originals/selected/FJ1758.obj",
+          "sha256": "017e0c54769998fa71f65b60918a6f721bbc723e441bc22ea580284567e708a2"
+        },
+        {
+          "path": "originals/selected/FJ1759.obj",
+          "sha256": "f64b3cea9f760a352cb8981f6cb577700a66392d8a8395ffb45dfebdccee7344"
+        },
+        {
+          "path": "originals/selected/FJ1760.obj",
+          "sha256": "cc6db16b990c3fa607ef64f6c0482fd05cb986213d011da9641ccf50182af897"
+        },
+        {
+          "path": "originals/selected/FJ1762.obj",
+          "sha256": "64a455fe3ae2f5adc06be7b407e50116f56102f9036a4eea3b6f6b7dae4b3b84"
+        },
+        {
+          "path": "originals/selected/FJ1767.obj",
+          "sha256": "17b278c20399a85a9d373ba6a934f9fe61901dd9c9480107baaef2b513f22ee3"
+        },
+        {
+          "path": "originals/selected/FJ1769.obj",
+          "sha256": "ab318e2ca0b27656d06edb4a3d3315669c70d7625989a3573fa66a0e586c6afc"
+        },
+        {
+          "path": "originals/selected/FJ1770.obj",
+          "sha256": "727a267ac80375fd0769bf92067d88adac02aa80220a3099cd530b32ddd88a5b"
+        },
+        {
+          "path": "originals/selected/FJ1775.obj",
+          "sha256": "caecdd922b67fa47e0219e2e7ae05e3efd986a2c869cf57b77ded1c615d1bfc9"
+        },
+        {
+          "path": "originals/selected/FJ1779.obj",
+          "sha256": "0fa8374655959d8e815c2d95105b3471d91a86fb9aa959d37522cab85c46c528"
+        },
+        {
+          "path": "originals/selected/FJ1780.obj",
+          "sha256": "dc2212c4c0c7c9e00375a7bcb24014938f45e15b068df36f6247df0cdb301881"
+        },
+        {
+          "path": "originals/selected/FJ1781.obj",
+          "sha256": "6f66f4912c7519ea6a018324ef4f6d46eb266350574d05a905afeb2c88c575ed"
+        },
+        {
+          "path": "originals/selected/FJ1783.obj",
+          "sha256": "2ea98ec904ba5de8229ed9aeff99c1b34f4030a080e758bdd063f8cc7e92d5f3"
+        },
+        {
+          "path": "originals/selected/FJ1784.obj",
+          "sha256": "b6e11d4565f77ca8c0b815540a6a7cc77f48616f81263cb6352c183cdbd0f1da"
+        },
+        {
+          "path": "originals/selected/FJ1785.obj",
+          "sha256": "87db9ae2691ad71d47210ad27a8d56353fb3e9400f68f1b1350f59cfdf4880b4"
+        },
+        {
+          "path": "originals/selected/FJ1786.obj",
+          "sha256": "9f4a8e120131ee6041a48635c3b6dc74cac8d6dcd50e80ef38b2aec56a66ce38"
+        },
+        {
+          "path": "originals/selected/FJ1787.obj",
+          "sha256": "9bc4568f6633e999f98ba932ac18608251aa36d689433fbbb536f72d6c4d3d6d"
+        },
+        {
+          "path": "originals/selected/FJ1788.obj",
+          "sha256": "e72da8ed193cd1b514207a4056bfb41fef1fabd548090dcc4cd5108ded280fa8"
+        },
+        {
+          "path": "originals/selected/FJ1789.obj",
+          "sha256": "4985721171ebf94eb7607822073dba045e42bec2428982a7befa96204b4b4c1a"
+        },
+        {
+          "path": "originals/selected/FJ1790.obj",
+          "sha256": "47b2ce1a7536c8dccaeba6e14139475ce65805b2d0af6036cda4db18aabe4559"
+        },
+        {
+          "path": "originals/selected/FJ1791.obj",
+          "sha256": "b8f2b6ac30aaf72f9ef0e7c00892edd7d4b27b1a6589971d25c973a8894e09f2"
+        },
+        {
+          "path": "originals/selected/FJ1792.obj",
+          "sha256": "860b8fd92e2fae9dd28f782c88170fb591d00b3154da78b57098ff5119692d96"
+        },
+        {
+          "path": "originals/selected/FJ1795.obj",
+          "sha256": "e3f5a0e1d1ebdf8a97329d1e71904f18d70e40038f89eb1990eb8a1f086dfc36"
+        },
+        {
+          "path": "originals/selected/FJ1797.obj",
+          "sha256": "030dbec5dbfc8f29059727f18f867e962fc5debfeea4cab45883edc2c996ec6b"
+        },
+        {
+          "path": "originals/selected/FJ1798.obj",
+          "sha256": "a7c633819d776ef3610be33e0c2ddf47e7da39b6da476b7876418f8245f27c25"
+        },
+        {
+          "path": "originals/selected/FJ1800.obj",
+          "sha256": "34c447cb8bf5e98493cfe52911af1fa9ebd0eaf32c7c5578457666575f5d8cc0"
+        },
+        {
+          "path": "originals/selected/FJ1801.obj",
+          "sha256": "f8ddd0851486a930ef02ff586badabd34cbcf31b034dd7b5ad1b6466f12d28c3"
+        },
+        {
+          "path": "originals/selected/FJ1806.obj",
+          "sha256": "1581396feaf5a2afee55eac865273c126dd0862ef64e756b189b97f85bc898b5"
+        },
+        {
+          "path": "originals/selected/FJ1807.obj",
+          "sha256": "6ae0c7024c63059599eedabc36fe4650e5979d99ca7d8f9b8bd2389c89d6c5a4"
+        },
+        {
+          "path": "originals/selected/FJ1808.obj",
+          "sha256": "9e6fe3664aa909ce2d26683de807b627b076a1e68906f4bf4ffc59cf984e4bc4"
+        },
+        {
+          "path": "originals/selected/FJ1810.obj",
+          "sha256": "3102a4f96ff71fc9c1e9686ca5e7aefe2e48bb15b3df9c731bde44f9a3dc553c"
+        },
+        {
+          "path": "originals/selected/FJ1814.obj",
+          "sha256": "38ca1d48bc0518256be6ee7a947169f24a402e91a49dde23bced70fc59a6a5d3"
+        },
+        {
+          "path": "originals/selected/FJ1817.obj",
+          "sha256": "b05b314182e27a015072a39847bd750a7c0899962d7d6357541cedf1358f05db"
+        },
+        {
+          "path": "originals/selected/FJ1822.obj",
+          "sha256": "bbe90f2e0a971bdbde65b9da78b3dff921ed92d2de4bfb81b9629b920d41d7de"
+        },
+        {
+          "path": "originals/selected/FJ1826.obj",
+          "sha256": "c468ce1835bf10dbc68f7351a99a788731418bc29b83a3ec2af6135766a69d69"
+        },
+        {
+          "path": "originals/selected/FJ1828.obj",
+          "sha256": "14f9e2dbd68f455314424315b049df5a1a84c248d4c56895b8f8ab426cc40a66"
+        },
+        {
+          "path": "originals/selected/FJ1830.obj",
+          "sha256": "d35574d86994e5e49e0e1ee41174a927c666735d7eb7b9cbdae2a709ae4a0bb9"
+        },
+        {
+          "path": "originals/selected/FJ1831.obj",
+          "sha256": "dccbbe50f38efa0e95660b6b99ffe1e16a2baf37a29e0200d697446f5299c476"
+        },
+        {
+          "path": "originals/selected/FJ1833.obj",
+          "sha256": "8f4548f67acff09574bc46bfc9c78c31ad8d4f16a34cfe28b95e19b640d2208c"
+        },
+        {
+          "path": "originals/selected/FJ1834.obj",
+          "sha256": "9a52d502e5af633cb6d1cae76e5e9230e60f78ee987982c23b02776fd3adc9ea"
+        },
+        {
+          "path": "originals/selected/FJ1835.obj",
+          "sha256": "d8c6c241f6e98a6b8bfa9cd97943173d18a91251a66029d9a5681fc09f691be4"
+        },
+        {
+          "path": "originals/selected/FJ1836.obj",
+          "sha256": "367b62ae6f27730d3587f4776ad948ad114f9182be35e776faf7aa576d97ae41"
+        },
+        {
+          "path": "originals/selected/FJ1841.obj",
+          "sha256": "473636ae8d030582d4d7a76d6fa93d2fc785a415060411fe9b93ce63738ee2bf"
+        },
+        {
+          "path": "originals/selected/FJ1842.obj",
+          "sha256": "dd46c1ccde03f979fb0e23071ab5816d7a4bda05776b66604e784f735127c0c2"
+        }
+      ],
+      "triangles": 89990,
+      "original_triangles": 322262
+    },
+    {
+      "id": "BP9668",
+      "fma": "FMA52734",
+      "original_name": "frontal bone",
+      "name_pt": "Osso frontal",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3200"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3200.obj",
+          "sha256": "9a01d88bd564b462ecadd6ad5bb3bb2274105baa3d211e0f444210d3f499ed64"
+        }
+      ],
+      "triangles": 7000,
+      "original_triangles": 14510
+    },
+    {
+      "id": "BP10180",
+      "fma": "FMA52735",
+      "original_name": "occipital bone",
+      "name_pt": "Osso occipital",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3309"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3309.obj",
+          "sha256": "37172b4706d23d51ebb3ce3839cc59c6e4cb4931039901f395703bc7dff52761"
+        }
+      ],
+      "triangles": 7000,
+      "original_triangles": 12450
+    },
+    {
+      "id": "BP9806",
+      "fma": "FMA52736",
+      "original_name": "sphenoid bone",
+      "name_pt": "Osso esfenoide",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3394"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3394.obj",
+          "sha256": "9255a2f02b16d0cf87c68fbfdc7afc4709d1afef94c2e2bb1e035b7f7852aca0"
+        }
+      ],
+      "triangles": 7000,
+      "original_triangles": 8154
+    },
+    {
+      "id": "BP10032",
+      "fma": "FMA52738",
+      "original_name": "right temporal bone",
+      "name_pt": "Osso temporal direito",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3386"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3386.obj",
+          "sha256": "cae2e4dc5211d50b06e70893eef3bdaf19564ab8ae7923260e800c3498f65f88"
+        }
+      ],
+      "triangles": 4928,
+      "original_triangles": 4928
+    },
+    {
+      "id": "BP9536",
+      "fma": "FMA52739",
+      "original_name": "left temporal bone",
+      "name_pt": "Osso temporal esquerdo",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3281"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3281.obj",
+          "sha256": "47cc46f1480c54fe14a2d22361c3b93fcb964538f23d5b425ac718854cff2673"
+        }
+      ],
+      "triangles": 4936,
+      "original_triangles": 4936
+    },
+    {
+      "id": "BP10084",
+      "fma": "FMA52740",
+      "original_name": "ethmoid",
+      "name_pt": "Osso etmoide",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3199"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3199.obj",
+          "sha256": "6c0fceb9f44fe469d4db0e41594e8c5ed28a576950de7c43df488628d81105ea"
+        }
+      ],
+      "triangles": 6979,
+      "original_triangles": 22276
+    },
+    {
+      "id": "BP9617",
+      "fma": "FMA52748",
+      "original_name": "mandible",
+      "name_pt": "Mandíbula",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3289"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3289.obj",
+          "sha256": "6ae0d7fde4221302f1c74d9e9933e2e05c36efef273bb27a78326d108d140ce8"
+        }
+      ],
+      "triangles": 5576,
+      "original_triangles": 5576
+    },
+    {
+      "id": "BP10121",
+      "fma": "FMA52788",
+      "original_name": "right parietal bone",
+      "name_pt": "Osso parietal direito",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3380"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3380.obj",
+          "sha256": "fb69a19eaa0585509f45ce1ebb5e8d91af0442629e52cfe1cfd190ca8f2f72b0"
+        }
+      ],
+      "triangles": 7000,
+      "original_triangles": 13002
+    },
+    {
+      "id": "BP10199",
+      "fma": "FMA52789",
+      "original_name": "left parietal bone",
+      "name_pt": "Osso parietal esquerdo",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3274"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3274.obj",
+          "sha256": "df63a28fa604ff67828d8f382c66cfa46f40306b1b4c17a8062029764047d0e3"
+        }
+      ],
+      "triangles": 6998,
+      "original_triangles": 13210
+    },
+    {
+      "id": "BP9965",
+      "fma": "FMA52892",
+      "original_name": "right zygomatic bone",
+      "name_pt": "Osso zigomático direito",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3392"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3392.obj",
+          "sha256": "e2c25d922162e3a76131e40ddf0356709947fa554b46640fa1880c381bb749c7"
+        }
+      ],
+      "triangles": 1556,
+      "original_triangles": 1556
+    },
+    {
+      "id": "BP9801",
+      "fma": "FMA52893",
+      "original_name": "left zygomatic bone",
+      "name_pt": "Osso zigomático esquerdo",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3287"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3287.obj",
+          "sha256": "9cfd8fd359816b5fa5ed9758f26d942c7ada0900aa7f614aff39949fdad3ddee"
+        }
+      ],
+      "triangles": 1434,
+      "original_triangles": 1434
+    },
+    {
+      "id": "BP9936",
+      "fma": "FMA53645",
+      "original_name": "right lacrimal bone",
+      "name_pt": "Osso lacrimal direito",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3371"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3371.obj",
+          "sha256": "d8160ed34abb66d2539e6f05eadc431bd18774e5d1def1a4cb9bc40e3e4a32c5"
+        }
+      ],
+      "triangles": 702,
+      "original_triangles": 702
+    },
+    {
+      "id": "BP9614",
+      "fma": "FMA53646",
+      "original_name": "left lacrimal bone",
+      "name_pt": "Osso lacrimal esquerdo",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3265"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3265.obj",
+          "sha256": "8ad400f81a74d51e3193ab1dc92ec39df5dc1c104a6ced970d430bca3d0f9c9c"
+        }
+      ],
+      "triangles": 640,
+      "original_triangles": 640
+    },
+    {
+      "id": "BP10124",
+      "fma": "FMA53647",
+      "original_name": "right nasal bone",
+      "name_pt": "Osso nasal direito",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3378"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3378.obj",
+          "sha256": "1acb8f803fb2cd9679eccd1634768b1bbee0714ebef7cf2de041d9332da88acf"
+        }
+      ],
+      "triangles": 416,
+      "original_triangles": 416
+    },
+    {
+      "id": "BP9837",
+      "fma": "FMA53648",
+      "original_name": "left nasal bone",
+      "name_pt": "Osso nasal esquerdo",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3272"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3272.obj",
+          "sha256": "cc03a0b61102415dfa66cc55210f65c71ca9466e6e043d350449eac71b414a24"
+        }
+      ],
+      "triangles": 438,
+      "original_triangles": 438
+    },
+    {
+      "id": "BP9705",
+      "fma": "FMA53649",
+      "original_name": "right maxilla",
+      "name_pt": "Maxila direita",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3375"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3375.obj",
+          "sha256": "a1be9480b632355859507e590be68146a591d343ad671ca85c43d7be50d8b43c"
+        }
+      ],
+      "triangles": 5324,
+      "original_triangles": 5324
+    },
+    {
+      "id": "BP10118",
+      "fma": "FMA53650",
+      "original_name": "left maxilla",
+      "name_pt": "Maxila esquerda",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3269"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3269.obj",
+          "sha256": "a56eeb3723f4b3cd1d96b113eaba8f253ed49ff76220ba48ac0d1d086b80ff60"
+        }
+      ],
+      "triangles": 5198,
+      "original_triangles": 5198
+    },
+    {
+      "id": "BP9748",
+      "fma": "FMA53655",
+      "original_name": "right palatine bone",
+      "name_pt": "Osso palatino direito",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3379"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3379.obj",
+          "sha256": "629876377eca1ae98eefc496121e950367c49bf215febf17cf58a7f9687845dd"
+        }
+      ],
+      "triangles": 1736,
+      "original_triangles": 1736
+    },
+    {
+      "id": "BP9484",
+      "fma": "FMA53656",
+      "original_name": "left palatine bone",
+      "name_pt": "Osso palatino esquerdo",
+      "group": "ossos",
+      "translation_status": "proposta não validada",
+      "elements": [
+        "FJ3273"
+      ],
+      "files": [
+        {
+          "path": "originals/selected/FJ3273.obj",
+          "sha256": "dacf96918a971758cbf25e3884b15e6c2b0a112a863b773332fb916431676368"
+        }
+      ],
+      "triangles": 1938,
+      "original_triangles": 1938
+    }
+  ],
+  "transform": {
+    "translation_source_units": [
+      0.6660003662109375,
+      86.41600036621094,
+      -1528.9576416015625
+    ],
+    "uniform_scale": 0.001,
+    "method": "Same translation and scale on every vertex; Blender Z-up to glTF Y-up at export",
+    "original_bounds": [
+      [
+        -76.1884994506836,
+        -190.83299255371094,
+        1421.6300048828125
+      ],
+      [
+        74.85649871826172,
+        18.000999450683594,
+        1636.2852783203125
+      ]
+    ]
+  },
+  "triangles": 197766,
+  "visual_revision": 2,
+  "materials_note": "Illustrative tissue colors and eye materials assigned to official FJ elements; not measured appearance. Coincident vertices welded; no new anatomical geometry.",
+  "glb_bytes": 3595004
+}

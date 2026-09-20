@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AtlasVR 2 · Explorador anatômico</title><link rel="stylesheet" href="style-v2.css"><script src="vendor/aframe-1.7.1.min.js"></script><script src="labels.js" defer></script><script src="app.js" defer></script><script src="offline.js" defer></script></head>
+<body>
+<header class="app-header"><div class="brand"><span class="brand-icon">◈</span> Atlas<span>VR</span><b>2</b></div><div class="breadcrumb">EXPLORADOR ANATÔMICO <span>/</span> Cabeça</div><button id="enter-vr" class="vr">◉ Entrar em VR</button></header>
+<div class="workspace">
+<aside id="controls">
+<div class="library-head"><div class="eyebrow">BIBLIOTECA DE ESTRUTURAS</div><h1>Cabeça <span id="part-count">23 peças</span></h1><p>BodyParts3D · conjunto simplificado</p></div>
+<section class="groups-section"><h2>Grupos anatômicos</h2><div id="groups"></div></section>
+<div class="list-header"><h2>Estruturas</h2><span>selecionar / visibilidade</span></div><div id="parts" role="list" aria-label="Estruturas anatômicas"></div>
+<div class="library-footer"><span class="ready-dot"></span><span id="status" role="status">Carregando estruturas…</span></div>
+</aside>
+<main id="viewport">
+<div class="viewport-top"><div><span class="eyebrow">VISTA INTERATIVA</span><p id="view-title">Explore as estruturas</p></div><button class="names-button" data-action="names" title="Mostrar ou ocultar nomes (N)">Mostrar nomes</button></div>
+<a-scene id="scene" embedded background="color: #18252f" renderer="antialias: true; colorManagement: true; maxCanvasWidth: 1920; maxCanvasHeight: 1920" vr-mode-ui="enabled: false" xr-mode-ui="enabled: false" webxr="referenceSpaceType: local-floor; optionalFeatures: local-floor" loading-screen="enabled: false">
+<a-entity id="camera" camera="fov: 48" position="0 1.5 0" look-controls="enabled: false" wasd-controls="enabled: false"></a-entity>
+<a-entity light="type: hemisphere; color: #f0f4ff; groundColor: #515a64; intensity: 0.85"></a-entity>
+<a-entity light="type: directional; color: #fff3e1; intensity: 2.1" position="-3 4 2"></a-entity>
+<a-entity light="type: directional; color: #dceaff; intensity: 0.65" position="3 1 1"></a-entity>
+<a-entity light="type: directional; color: #e1eeff; intensity: 1.2" position="1 3 -4"></a-entity>
+<a-entity id="model" position="0 1.5 -1.5" scale="3 3 3"></a-entity>
+<a-entity id="mouse" cursor="rayOrigin: mouse; fuse: false" raycaster="objects: .pickable; far: 8"></a-entity>
+<a-entity id="left-hand" laser-controls="hand: left; model: false" raycaster="objects: .pickable, .vr-button; far: 5; lineColor: #69e4d3"></a-entity>
+<a-entity id="right-hand" laser-controls="hand: right; model: false" raycaster="objects: .pickable, .vr-button; far: 5; lineColor: #69e4d3"></a-entity>
+<a-entity id="vr-left" visible="false" position="-1.05 1.45 -1.3" rotation="0 30 0"></a-entity>
+<a-entity id="vr-right" visible="false" position="1.05 1.45 -1.3" rotation="0 -30 0"></a-entity>
+</a-scene>
+<svg id="callouts" aria-label="Nomes das estruturas na vista 3D"></svg>
+<div id="label-hint" aria-live="polite"></div>
+<div class="view-presets" aria-label="Orientação do modelo"><button data-action="view:front">Frontal</button><button data-action="view:left">Lateral</button><button data-action="view:back">Posterior</button></div>
+<div class="model-toolbar"><div class="tool-group"><span>GIRAR</span><button data-action="yaw-" title="Girar à esquerda">↶</button><button data-action="yaw+" title="Girar à direita">↷</button><button data-action="pitch-" title="Inclinar para cima">↑</button><button data-action="pitch+" title="Inclinar para baixo">↓</button></div><div class="tool-group scale-tools"><span>ESCALA</span><button data-action="scale-" aria-label="Reduzir">−</button><output id="scale-readout">3,0×</output><button data-action="scale+" aria-label="Ampliar">+</button></div><button id="move-toggle" aria-expanded="false" aria-controls="move-controls">↔ Mover</button><button class="restore" data-action="restore" title="Restaurar cena (R)">⟲ Restaurar</button></div>
+<div id="move-controls" hidden><div class="popover-title">Reposicionar o modelo</div><div class="grid"><button data-action="x-">← Esquerda</button><button data-action="x+">Direita →</button><button data-action="y+">↑ Subir</button><button data-action="y-">↓ Descer</button><button data-action="z+">Aproximar</button><button data-action="z-">Afastar</button></div></div>
+<div class="viewport-footer"><span>Arraste para girar <b>·</b> Roda para ampliar <b>·</b> Shift + arraste para mover</span><span id="metrics"></span></div>
+</main>
+<aside id="inspector"><div class="eyebrow">INSPEÇÃO</div><h2 class="inspector-title">Peça selecionada</h2><div class="selection-symbol" aria-hidden="true">◎</div><div id="selection" aria-live="polite">Nenhuma peça selecionada</div><p id="selection-meta">Selecione no modelo ou na lista.</p><button class="primary" data-action="reveal">Revelar nome</button><div class="grid"><button data-action="isolate">Isolar seleção</button><button data-action="hide">Ocultar seleção</button></div><button class="clear-selection" data-action="deselect">Limpar seleção</button><div class="inspector-note"><span>01</span><p>Selecione uma peça para destacá-la.</p><span>02</span><p>Revele seu nome quando desejar.</p><span>03</span><p>Isole para explorar os detalhes.</p></div><div class="inspector-bottom"><p id="xr-status"></p><details><summary>Créditos e informações</summary><p>BodyParts3D © The Database Center for Life Science · CC BY 4.0. Nomes propostos, não validados.</p><a href="credits.html" target="_blank" rel="noopener">Fontes, licença e adaptações ↗</a></details></div></aside>
+</div><footer class="app-footer"><span class="notice">Protótipo técnico — conteúdo não validado para ensino</span><span>Windows + WebXR <b>·</b> V2</span></footer>
+</body></html>
