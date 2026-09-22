@@ -6,7 +6,7 @@
  if(!('serviceWorker' in navigator)||!window.isSecureContext){status.textContent='Cópia local indisponível neste navegador.';return;}
  let busy=false;
  async function prepare(){
-  if(busy)return;busy=true;retry.hidden=true;status.textContent='Preparando cópia local (cerca de 5 MB)…';
+  if(busy)return;busy=true;retry.hidden=true;status.textContent='Preparando cópia local (cerca de 6 MB)…';
   try{
    const reg=await navigator.serviceWorker.register('sw.js',{updateViaCache:'none'});
    reg.addEventListener('updatefound',()=>{const worker=reg.installing;worker?.addEventListener('statechange',()=>{if(worker.state==='installed'&&reg.waiting)status.textContent='Atualização baixada. Feche todas as abas do atlas e reabra.';});});
